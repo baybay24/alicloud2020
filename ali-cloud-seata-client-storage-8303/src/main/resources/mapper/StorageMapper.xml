@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.ali.cloud.seata.mapper.StorageMapper">
+    <resultMap id="storage" type="com.ali.cloud.seata.entity.StorageDTO">
+        <result column="id" property="id"/>
+        <result column="commodity_code" property="commodityCode"/>
+        <result column="count" property="count"/>
+    </resultMap>
+    <update id="divStorage">
+        update storage_tbl set count = count - ${count} where commodity_code = #{commodityCode}
+    </update>
+</mapper>

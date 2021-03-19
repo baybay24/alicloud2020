@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ali-cloud-consumer-order-7001" />
+        <module name="ali-cloud-seata-client-storage-8303" />
+        <module name="ali-cloud-consumer-order-7003" />
+        <module name="ali-cloud-sentinel-service8402" />
+        <module name="ali-cloud-consumer-order-7002" />
+        <module name="ali-cloud-sentinel-service8401" />
+        <module name="ali-cloud-config-66" />
+        <module name="ali-cloud-seata-client-account-8301" />
+        <module name="ali-cloud-provider-payment-9002" />
+        <module name="ali-cloud-seata-common-8304" />
+        <module name="ali-cloud-provider-payment-9004" />
+        <module name="ali-cloud-provider-payment-9003" />
+        <module name="ali-cloud-seata-client-order-8302" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ali-cloud-config" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

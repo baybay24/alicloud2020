@@ -1,0 +1,5 @@
+com\ali\cloud\seata\entity\OrderDTO.class
+com\ali\cloud\seata\feignClient\StorageFeignClient.class
+com\ali\cloud\seata\entity\StorageDTO.class
+com\ali\cloud\seata\entity\AccountDTO.class
+com\ali\cloud\seata\feignClient\AccountFeignClient.class
